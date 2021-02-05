@@ -130,7 +130,40 @@ button {
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
+#redcolor:hover,
+#redcolor:focus {
+	color: #ce5f31;
+}
+#redcolor {
+	padding: 1%;
+}
+#red {
+	background-color: #ce5f31;
+	color: white;
+	padding: 1%;
+	border-radius: 4%;
 
+}
+#red:hover,
+#red:focus {
+	background-color: #ef7f52;
+}
+.nav-link{
+	margin: 20px; 
+	padding: 10px;
+}
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
+}
+.boxes div {
+	border: 1px solid black;
+	padding: 30px;
+	text-align: center;
+	font-weight: bold;
+	background: rgb(241, 240, 240);
+}
 /* Media queries */
 
 @media screen and (min-width: 992px) {
@@ -139,3 +172,11 @@ button {
 	   max-height: 80px;
 	}
 }
+@media only screen and (max-width: 320px) {
+	.jumbotron h1 {
+		font-size: 1rem;
+	}
+}
+
+
+
